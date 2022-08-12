@@ -25,5 +25,6 @@
         android:text="@string/roll_no"
         android:layout_margin="10dp"
         android:textSize="20sp" />
+
 </LinearLayout>
 </layout>

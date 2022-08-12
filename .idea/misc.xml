@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/intel/AndroidStudioProjects/FragmentActivity/Recycler-View/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.126" />
+        <entry key="..\:/Users/intel/AndroidStudioProjects/FragmentActivity/Recycler-View/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/intel/AndroidStudioProjects/FragmentActivity/Recycler-View/app/src/main/res/layout/custom_dialog.xml" value="0.203125" />
+        <entry key="..\:/Users/intel/AndroidStudioProjects/FragmentActivity/Recycler-View/app/src/main/res/layout/layout1.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/o7/AndroidStudioProjects/RecyclerViewApp/app/src/main/res/layout/activity_main.xml" value="0.15715579710144928" />
         <entry key="..\:/Users/o7/AndroidStudioProjects/RecyclerViewApp/app/src/main/res/layout/layout1.xml" value="0.12001811594202899" />
       </map>

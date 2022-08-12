@@ -12,9 +12,7 @@ class RecyclerClass : RecyclerView.Adapter<RecyclerClass.ViewHolder>() {
     return ViewHolder(initView)
     }
 
-    override fun onBindViewHolder(holder: RecyclerClass.ViewHolder, position: Int) {
 
-    }
 
     class ViewHolder(view: View):RecyclerView.ViewHolder(view) {
         var tvId = view.findViewById<TextView>(R.id.tvId)
@@ -22,7 +20,9 @@ class RecyclerClass : RecyclerView.Adapter<RecyclerClass.ViewHolder>() {
         var tvName = view.findViewById<TextView>(R.id.tvName)
 
     }
+    override fun onBindViewHolder(holder: RecyclerClass.ViewHolder, position: Int) {
 
+    }
     override fun getItemCount(): Int {
    return 5
     }
