@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class RecyclerClass : RecyclerView.Adapter<RecyclerClass.ViewHolder>() {
+class RecyclerClass(var array: ArrayList<DataClass1>) : RecyclerView.Adapter<RecyclerClass.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerClass.ViewHolder {
     var initView = LayoutInflater.from(parent.context).inflate(R.layout.layout1,parent,false)
     return ViewHolder(initView)
@@ -21,9 +21,12 @@ class RecyclerClass : RecyclerView.Adapter<RecyclerClass.ViewHolder>() {
 
     }
     override fun onBindViewHolder(holder: RecyclerClass.ViewHolder, position: Int) {
+     holder.tvId.setText(array.get(position).id.toString())
+        holder.tvName.setText(array.get(position).name.toString())
+        holder.tvrollNo.setText(array.get(position).rollNo.toString())
 
     }
     override fun getItemCount(): Int {
-   return 5
+   return array.size
     }
 }
